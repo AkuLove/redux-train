@@ -1,0 +1,21 @@
+footer {
+  background-color: #dcdedf;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 1240px;
+  box-sizing: content-box;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.footerBody {
+  flex: 1 1 auto;
+}
+
+.logo {
+  display: flex;
+  font-size: 50px;
+}
