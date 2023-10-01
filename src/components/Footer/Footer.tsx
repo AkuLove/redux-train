@@ -7,9 +7,16 @@ function Footer() {
     <footer>
       <div className={style.container}>
         <div className={style.footerBody}>Footer</div>
-        <Link to="https://github.com/AkuLove" className={style.logo}>
-          <AiFillGithub />
-        </Link>
+        <div className={style.media}>
+          <Link to="https://github.com/AkuLove" className={style.logo}>
+            <AiFillGithub />
+            <p>AkuLove</p>
+          </Link>
+          <Link to="https://github.com/sergey-mak1" className={style.logo}>
+            <AiFillGithub />
+            <p>sergey-mak1</p>
+          </Link>
+        </div>
       </div>
     </footer>
   );
